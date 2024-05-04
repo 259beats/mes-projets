@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./Rose\ Water.jpg);
+    overflow: hidden;
+}
+
+#todo-app{
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+#to-do-form input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+#to-do-form button{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#to-do-form button:hover{
+    background-color: #ddd;
+}
+
+#to-do-list{
+    list-style: none;
+    padding: 0;
+}
+#to-do-list li{
+    background-color: #f9f9f9;
+    margin: 10px ;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    position: absolute;
+    top: 93%;
+    text-align: center;
+    font-size: 17px;
+    color: #aaa;
+}
